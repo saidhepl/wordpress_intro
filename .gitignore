@@ -1,9 +1,11 @@
+# Ignorer tout
 *
+# Ne pas ignorer .gitignore
 !.gitignore
+# Ne pas ignorer wp-content/themes/dw et son contenu
 !wp-content/
 wp-content/*
-!wp-content/themes
+!wp-content/themes/
 wp-content/themes/*
-!wp-content/themes/dw
+!wp-content/themes/dw/
 !wp-content/themes/dw/*/*
-
